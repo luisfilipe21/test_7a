@@ -1,0 +1,35 @@
+aside {
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #BFBFBFff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.asideContainer {
+    background-color: #AFABABff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem 0;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.asideSpan {
+    padding: 1rem;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    max-width: fit-content;
+    font-weight: bold;
+    background-color: lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+    padding:1rem ;
+}
+
+
+

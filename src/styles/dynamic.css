@@ -1,0 +1,50 @@
+.container {
+    height: 100%;
+    width: 70%;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #E6E6E6ff;
+    position: relative;
+}
+
+.dynamicDiv {
+    padding: 1rem;
+
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.listItem {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 20px;
+    background-color: #AFABABff;
+}
+
+.listNum {
+    padding: 0.875rem 1.125rem;
+    background-color: #CFCDCDff;
+    border-radius: 255px;
+    font-weight: bold;
+}
+
+.dynamicSpan {
+    background-color: #AFABABff;
+    font-weight: bold;
+    padding: 1rem;
+    max-width: fit-content;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
